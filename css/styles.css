@@ -288,7 +288,7 @@ body {
 /* ------------------------------------------------------------------------ */
 
 /* START OF MODAL */
-.modal-dialog {
+.modalProperty {
   margin-top: 6em;
   border-radius: 0px;
 }
