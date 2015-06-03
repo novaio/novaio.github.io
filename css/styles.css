@@ -88,9 +88,9 @@ body {
   color: white;
 }
 .onImageBetaButton {
-  background-color: transparent;
+  background-color: #EE402D;
+  border: 1px solid #EE402D;
   padding: 10px 30px 10px 30px;
-  border: 1px solid white;
   font-size: 15px;
   font-family: Light;
   color: white;
@@ -98,8 +98,8 @@ body {
   margin-bottom: 4em;
 }
 .onImageBetaButton:hover {
-  background-color: #EE402D;
-  border: 1px solid #EE402D;
+  background-color: #D24636;
+  border: 1px solid #D24636;
   color: white;
 }
 .navbar-nav .follow {
