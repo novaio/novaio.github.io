@@ -291,6 +291,7 @@ body {
 .modalProperty {
   margin-top: 6em;
   border-radius: 0px;
+  width: auto;
 }
 .googleForm {
   width: 100%;
