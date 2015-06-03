@@ -17,7 +17,7 @@ app.use(errorHandler({
 }));
 
 app.get("/", function (req, res) {
-  res.redirect("/index.html");
+  res.redirect("index.html");
 });
 
 //var routeHandler = require("./routes");
