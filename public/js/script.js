@@ -1,6 +1,6 @@
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 });
-$("#add").modal({
+$("#sign").modal({
 	keyboard: true;
 });
