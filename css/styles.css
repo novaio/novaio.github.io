@@ -164,7 +164,7 @@ body {
 }
 .subTagLine {
   margin-top: 1em;
-  font-size:calc(80% + 0.8vw);
+  font-size:15px;
   color: #888888;
 }
 .titleHeading {
