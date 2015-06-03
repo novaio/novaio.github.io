@@ -293,6 +293,6 @@ body {
   border-radius: 0px;
   width: auto;
 }
-.googleForm {
+.modal .modal-body .googleForm {
   width: 100%;
 }
