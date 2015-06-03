@@ -1,22 +1,22 @@
 @font-face {
   font-family: 'Light';
-  src: url('../fonts/Roboto-Light.ttf');
+  src: url('../public/fonts/Roboto-Light.ttf');
 }
 @font-face {
   font-family: 'Bold';
-  src: url('../fonts/Roboto-Bold.ttf');
+  src: url('../public/fonts/Roboto-Bold.ttf');
 }
 @font-face {
   font-family: 'Cool';
-  src: url('../fonts/Cool.ttf');
+  src: url('../public/fonts/Cool.ttf');
 }
 @font-face {
   font-family: 'Typo';
-  src: url('../fonts/Typo.otf');
+  src: url('../public/fonts/Typo.otf');
 }
 @font-face {
   font-family: 'Thin';
-  src: url('../fonts/Thin.otf');
+  src: url('../public/fonts/Thin.otf');
 }
 body {
 	background-color: white;
@@ -133,12 +133,12 @@ body {
 
 /* CHANGING MAIN CONTENT */
 .mainHeader {
-  background: url("../images/background.jpg");
+  background: url("../public/images/background.jpg");
   height: 700px;
   background-attachment: fixed;
 }
 .bottomHeader {
-  background: url("../images/paino.jpg");
+  background: url("../public/images/paino.jpg");
   min-height: 300px;
   padding-top: 0.3em;
   padding-bottom: 4em;
@@ -285,75 +285,3 @@ body {
 /* END OF FOOTER CSS */
 
 /* ------------------------------------------------------------------------ */
-
-/* START OF MODAL CSS */
-.modalProperty {
-  margin-top: 6em;
-  border-radius: 0px;
-}
-.modalMainHeader {
-  background: url("../images/blossom.jpg");
-  min-height: 300px;
-  background-attachment: fixed;
-}
-.modalHeader {
-  padding-top: 1em;
-  font-family: Cool;
-  font-size: 65px;
-  color: white;
-}
-.modalHeaderDescription {
-  margin-bottom: 3em;
-  font-size: 17px;
-  color: white;
-}
-.label {
-  margin-top: 1em;
-}
-.form-control {
-  margin-top: 0.4em;
-  padding: 20px 20px 20px 15px;
-}
-.modal-body {
-  padding-bottom: 3em;
-}
-.modalSignUp {
-  color: #F26B5C;
-  background-color: transparent;
-  font-size: 12px;
-}
-.modalSignUp:hover {
-  background-color: #F0F0F0;
-  color: #EE402D;
-}
-.modalCancel {
-  color: #888888;
-  background-color: transparent;
-  font-size: 12px;
-}
-.modalCancel:hover {
-  background-color: transparent;
-  color: #444444;
-}
-.modal-footer {
-  margin-top: 4em;
-}
-.closeModal {
-  width: 10px;
-  height: auto;
-}
-.closeModalButton {
-  float: right;
-  background: transparent;
-  border: none;
-  border-radius: 35px;
-  height: 35px;
-  width: 35px;
-}
-.closeModalButton:hover {
-  background-color: rgba(250,250,250,0.3);
-}
-.googleForm {
-  width: 100%;
-  height: 500px;
-}
