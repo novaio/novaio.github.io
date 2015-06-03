@@ -215,6 +215,12 @@ body {
   font-size: 100px;
   color: white;
 }
+.featureTitle {
+  padding-top: 2em;
+  font-family: Cool;
+  font-size: 80px;
+  color: white;
+}
 .novaLine {
   margin-top: 0.5em;
   font-family: Light;
