@@ -285,3 +285,13 @@ body {
 /* END OF FOOTER CSS */
 
 /* ------------------------------------------------------------------------ */
+
+/* START OF MODAL */
+.modal-dialog {
+  margin-top: 6em;
+  border-radius: 0px;
+}
+.googleForm {
+  width: 100%;
+  height: 500px;
+}
