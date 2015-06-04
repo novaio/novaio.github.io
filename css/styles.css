@@ -136,7 +136,7 @@ body {
   background-color: #EE402D;
 }
 .navbar-toggle {
-  border: 1px solid #F0F0F0;
+  border: transparent;
   margin-top: 1.3em;
   margin-right: 2em;
 }
