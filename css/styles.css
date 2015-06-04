@@ -112,6 +112,26 @@ body {
   color: #55ACEE;
   background: transparent;
 }
+.navbar-nav .like {
+  font-size: 12px;
+  color: #888888;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.navbar-nav .like:hover {
+  color: #395A93;
+  background: transparent;
+}
+.navbar-nav .igFollow {
+  font-size: 12px;
+  color: #888888;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.navbar-nav .igFollow:hover {
+  color: #256080;
+  background: transparent;
+}
 .icon-bar {
   background-color: #EE402D;
 }
