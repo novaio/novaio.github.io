@@ -319,7 +319,7 @@ body {
 /* START OF FOOTER CSS */
 .footer {
   padding-top: 2em;
-  padding-bottom: 2em;
+  padding-bottom: 1em;
 }
 .footerList {
   margin-top: 0.5em;
