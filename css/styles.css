@@ -19,7 +19,7 @@
   src: url('../public/fonts/Thin.otf');
 }
 body {
-	background-color: white;
+	margin-top: 3em;
 }
 .container {
   width: 80%;
