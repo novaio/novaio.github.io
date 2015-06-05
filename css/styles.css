@@ -33,12 +33,12 @@ body {
 
 /* START OF NAVBAR CSS */
 .navbar {
-  background: #F2F2F2;
+  background: #F8F8F8;
   height: 70px;
   border:none;
-  -webkit-box-shadow: 0px 2px 2px #C2C2C2;
-  -moz-box-shadow: 0px 2px 2px #C2C2C2;
-  box-shadow: 0px 2px 2px #C2C2C2;
+  -webkit-box-shadow: 0px 2px 2px #E3E3E3;
+  -moz-box-shadow: 0px 2px 2px #E3E3E3;
+  box-shadow: 0px 2px 2px #E3E3E3;
 }
 .navBar .menu {
   font-size: 12px;
@@ -148,7 +148,7 @@ body {
 }
 .navbar-collapse{
   width: 100%;
-  background-color: #F2F2F2;
+  background-color: #F8F8F8;
 }
 /* END OF BUTTONS CSS */
 
