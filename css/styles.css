@@ -19,7 +19,7 @@
   src: url('../public/fonts/Thin.otf');
 }
 body {
-  background-color: #F2F2F2;
+  background-color: #FFFFFF;
 	margin-top: 3em;
 }
 .container {
@@ -35,7 +35,10 @@ body {
 .navbar {
   background: #F2F2F2;
   height: 70px;
-  border: none;
+  border:none;
+  -webkit-box-shadow: 0px 2px 2px #C2C2C2;
+  -moz-box-shadow: 0px 2px 2px #C2C2C2;
+  box-shadow: 0px 2px 2px #C2C2C2;
 }
 .navBar .menu {
   font-size: 12px;
@@ -146,6 +149,7 @@ body {
 .navbar-collapse{
   width: 100%;
   background-color: #F2F2F2;
+  border-bottom: 2px solid #C2C2C2;
 }
 /* END OF BUTTONS CSS */
 
