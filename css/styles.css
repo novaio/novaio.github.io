@@ -33,7 +33,7 @@ body {
 
 /* START OF NAVBAR CSS */
 .navbar {
-  background: #F8F8F8;
+  background: #FFFFFF;
   height: 70px;
   border:none;
   -webkit-box-shadow: 0px 2px 2px #E3E3E3;
@@ -41,7 +41,7 @@ body {
   box-shadow: 0px 2px 2px #E3E3E3;
 }
 .navBar .menu {
-  font-size: 12px;
+  font-size: 13px;
   color: #888888;
   margin-top: 10px;
 }
@@ -106,7 +106,7 @@ body {
   color: white;
 }
 .navbar-nav .follow {
-  font-size: 12px;
+  font-size: 13px;
   color: #888888;
   margin-top: 10px;
   margin-right: 10px;
@@ -116,7 +116,7 @@ body {
   background: transparent;
 }
 .navbar-nav .like {
-  font-size: 12px;
+  font-size: 13px;
   color: #888888;
   margin-top: 10px;
   margin-right: 10px;
@@ -126,7 +126,7 @@ body {
   background: transparent;
 }
 .navbar-nav .igFollow {
-  font-size: 12px;
+  font-size: 13px;
   color: #888888;
   margin-top: 10px;
   margin-right: 9em;
@@ -148,7 +148,7 @@ body {
 }
 .navbar-collapse{
   width: 100%;
-  background-color: #F8F8F8;
+  background-color: #FFFFFF;
 }
 /* END OF BUTTONS CSS */
 
