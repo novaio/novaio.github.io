@@ -10,6 +10,14 @@
   font-family: 'Cool';
   src: url('../public/fonts/Cool.ttf');
 }
+@font-face {
+  font-family: 'Typo';
+  src: url('../public/fonts/Typo.otf');
+}
+@font-face {
+  font-family: 'Thin';
+  src: url('../public/fonts/Thin.otf');
+}
 body {
   background-color: #FFFFFF;
 	margin-top: 3em;
