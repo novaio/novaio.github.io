@@ -203,6 +203,7 @@ body {
 .subTagLine {
   margin-top: 1em;
   line-height: 40px;
+  font-family: Light;
   font-size:18px;
   color: #888888;
 }
