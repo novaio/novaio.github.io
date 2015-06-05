@@ -19,6 +19,7 @@
   src: url('../public/fonts/Thin.otf');
 }
 body {
+  background-color: #F2F2F2;
 	margin-top: 3em;
 }
 .container {
@@ -31,7 +32,7 @@ body {
 /* ------------------------------------------------------------------------ */
 
 /* START OF NAVBAR CSS */
-.navBar {
+.navbar {
   background: #F2F2F2;
   height: 70px;
   border: none;
@@ -144,7 +145,7 @@ body {
 }
 .navbar-collapse{
   width: 100%;
-  background-color: rgba(255,255,255,0.95);
+  background-color: #F2F2F2;
 }
 /* END OF BUTTONS CSS */
 
