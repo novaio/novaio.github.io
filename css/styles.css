@@ -158,6 +158,7 @@ body {
 .mainHeader {
   background: url("../public/images/background.png");
   width: 100%;
+  padding-top: 15em;
   height: 700px;
   background-attachment: fixed;
 }
@@ -235,10 +236,20 @@ body {
   color: #888888;
 }
 .novaTitle {
-  padding-top: 2em;
   font-family: Cool;
-  font-size: 100px;
+  font-size:calc(100% + 6vw);
   color: white;
+}
+.novaMainText {
+  background: #EE402D;
+  padding: 7px 20px 7px 20px;
+  border-radius: 15px;
+  margin-left: 5px;
+}
+.blog {
+  background-color: #EE402D;
+  padding: 7px 25px 7px 25px;
+  border-radius: 5px;
 }
 .featureTitle {
   padding-top: 2.5em;
@@ -247,7 +258,7 @@ body {
   color: white;
 }
 .novaLine {
-  margin-top: 0.5em;
+  margin-top: 1em;
   font-family: Light;
   font-size:calc(80% + 0.8vw);
   color: #F0F0F0;
@@ -268,6 +279,7 @@ body {
 .signUpTitle {
   margin-top: 3em;
   font-size: 40px;
+  font-family: Light;
   color: white;
 }
 .ourFeatureTitle {
