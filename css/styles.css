@@ -132,7 +132,7 @@ body {
   font-size: 15px;
   font-family: Light;
   color: white;
-  margin-top: 3px;
+  margin-top: -3px;
 }
 .blogButtonOnHome:hover {
   background-color: #EE402D;
