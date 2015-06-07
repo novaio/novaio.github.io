@@ -270,7 +270,7 @@ body {
 }
 .bestWayHeader {
   background: url("../public/images/bestWay.png");
-  height: 700px;
+  height: 750px;
   padding-top: 0.3em;
   padding-bottom: 1em;
   background-attachment: fixed;
@@ -412,7 +412,7 @@ body {
   color: white;
 }
 .ourFeatureTitle {
-  margin-top: 3em;
+  margin-top: 2em;
   margin-bottom: 1em;
   font-size: 40px;
   color: white;
