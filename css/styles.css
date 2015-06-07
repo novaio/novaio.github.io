@@ -272,7 +272,7 @@ body {
   background: url("../public/images/bestWay.png");
   height: 800px;
   padding-top: 0.3em;
-  padding-bottom: 4em;
+  padding-bottom: 2em;
   background-attachment: fixed;
 }
 .betaHeader {
@@ -528,7 +528,7 @@ body {
   margin-left: 30px;
 }
 .phone {
-  width: 60%;
+  width: 70%;
   height: auto;
 }
 /* END OF IMAGE PROPERTIES */
