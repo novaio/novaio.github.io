@@ -214,7 +214,7 @@ body {
   background-attachment: fixed;
 } 
 .blogHeader {
-  background: url("../public/images/blogs.png");
+  background: url("../public/images/bottomBlog.png");
   width: 100%;
   padding-top: 2.5em;
   padding-bottom: 8em;
@@ -242,6 +242,15 @@ body {
 }
 .webProjectPostHeader {
   background: url("../public/images/blogs/webProjectPost.png");
+  width: 100%;
+  padding-top: 2.5em;
+  padding-bottom: 8em;
+  height: 600px;
+  margin-bottom: 5em;
+  background-attachment: fixed;
+}
+.toolsPostHeader {
+  background: url("../public/images/blogs/toolsPost.png");
   width: 100%;
   padding-top: 2.5em;
   padding-bottom: 8em;
@@ -504,8 +513,7 @@ body {
   margin-top: 5em;
 }
 .blogFitImage {
-  padding-left: 40px;
-  padding-right: 40px;
+  padding: 15px 40px 15px 40px;
 }
 .aboutAuthor {
   width: 90px;
