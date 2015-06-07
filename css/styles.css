@@ -125,9 +125,9 @@ body {
 .blogButtonOnHome {
   background-color: rgba(25,25,25,0.3);
   border: none;
-  width: 50px;
-  height: 50px;
-  border-radius: 50px;
+  width: 55px;
+  height: 55px;
+  border-radius: 55px;
   padding: 10px 20px 10px 20px;
   font-size: 15px;
   font-family: Light;
