@@ -125,6 +125,9 @@ body {
 .blogButtonOnHome {
   background-color: rgba(25,25,25,0.3);
   border: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
   padding: 10px 20px 10px 20px;
   font-size: 15px;
   font-family: Light;
@@ -473,6 +476,10 @@ body {
 .waitingFor {
   font-size:calc(100% + 2vw);
   font-family: Light;
+}
+.authorName {
+  padding-top: 10px;
+  padding-left: 20px;
 }
 /* END OF TEXT PROPERTIES */
 
