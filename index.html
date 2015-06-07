@@ -10,63 +10,32 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-	<!-- THE NAVIGATION BAR -->
-	<nav class="navbar navbar-fixed-top navBar">
-      		<div class="navbar-header" align="center">
-	        	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navHeaderCollapse">
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="index.html"><img src="public/images/favicon.png" class="img-responsive logo" alt="Nova Logo"></a>
-			</div>
-      		<div class="collapse navbar-collapse navHeaderCollapse" id="navHeaderCollapse" aria-expanded="true">
-	      		<ul class="nav navbar-nav navbar-right">
-	   				<li>
-	      				<!-- ADD FOLLOW LINK BUTTON FOR THIS -->
-	      				<a href="https://www.facebook.com/NovaApp" class="like" target="_blank">
-	      					<span class="fa fa-facebook"></span>&nbsp;&nbsp;Like
-	      				</a>
-	      			</li>
-	      			<li>
-	      				<!-- ADD FOLLOW LINK BUTTON FOR THIS -->
-	      				<a href="https://twitter.com/nova_io" class="follow" target="_blank">
-	      					<span class="fa fa-twitter"></span>&nbsp;&nbsp;Follow
-	      				</a>
-	      			</li>
-	      			<li>
-	      				<!-- ADD FOLLOW LINK BUTTON FOR THIS -->
-	      				<a href="https://instagram.com/nova_io/" class="igFollow" target="_blank">
-	      					<span class="fa fa-instagram"></span>&nbsp;&nbsp;Follow
-	      				</a>
-	      			</li>
-	      		</ul>
-      		</div>
-  		</div>
-	</nav>
-	<!-- END OF NAVIGATION BAR -->
-
-	<!-- MAIN CONTENT -->
+	<!-- ACTUAL HEADER HERE -->
 	<div class="col-md-12 mainHeader" align="center">
-		<h4 class="novaTitle">NOVA<span class="novaMainText">IO</span></h4>
-		<p class="novaLine">Exceed the possibilities of your social media experience.</p>
-		<div class="col-md-12">
-	      	<button type="button" class="btn onImageBetaButton" data-target="#sign" data-toggle="modal">Sign Up for Beta</button>
-	      	<div class="modal fade" id="sign" tabindex="-1" role="dialog" aria-labelledby="addLabel" aria-hidden="true">
-	      	<!-- GOOGLE FORM ID -->
-	      		<div class="modal-dialog modal-md">
-	      			<div class="modal-content modalProperty">
-	      				<iframe src="https://docs.google.com/forms/d/15dwzAAM3uUl6YSLxqOg8fbUzOSu_up5vywFivstvhbw/viewform?embedded=true" width="760" frameborder="0" marginheight="0" marginwidth="0" class="googleForm">Loading...</iframe>
-	      			</div>
-	      		</div>
-	      	</div>
-		</div>
-		<div class="col-md-12" align="right">
-			<div class="col-md-11">
-				
+		<div class="col-md-12 navBarLogo" align="center">
+			<div class="col-xs-4" align="left">
+				<a href="mailto:contact@NovaIO.io?Subject=Nova%20Helpdesk" target="_top">
+					<button class="btn btn blogButtonOnHome">Contact</button>
+				</a>	
 			</div>
-			<div class="col-md-1">
-				<a href="https://goo.gl/EXdk7R" class="hashtagLink" target="_blank"><p class="hashtag">#FireUp</p></a>
+			<div class="col-xs-4" align="center">
+				<a href="index.html"><img src="public/images/favicon.png" class="img-responsive blogByLogo" alt="Nova Logo" alt="center" data-toggle="tooltip" data-placement="bottom" title="Home"></a>
+			</div>
+			<div class="col-xs-4" align="right">
+				<a href="blogs.html">
+					<button class="btn btn blogButtonOnHome" data-target="#sign" data-toggle="modal">Blog</button>
+				</a>
+			</div>
+		</div>
+		<h4 class="blogPostMainTitle">NovaIO</h4>
+		<p class="novaLine">Exceed the possibilties of your social media experience.</p>
+		<button class="btn onImageBetaButton" data-target="#sign" data-toggle="modal">Sign up for Beta</button>
+		<div class="modal fade" id="sign" tabindex="-1" role="dialog" aria-labelledby="addLabel" aria-hidden="true">
+		<!-- GOOGLE FORM ID -->
+			<div class="modal-dialog modal-md">
+				<div class="modal-content modalProperty">
+					<iframe src="https://docs.google.com/forms/d/15dwzAAM3uUl6YSLxqOg8fbUzOSu_up5vywFivstvhbw/viewform?embedded=true" width="760" frameborder="0" marginheight="0" marginwidth="0" class="googleForm">Loading...</iframe>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -77,9 +46,10 @@
 			<img src="public/images/goals.png" class="img-responsive ourGoals" alt="What our Mission Is">
 		</div>
 	</div>	
-		<div class="col-md-12 peopleHeader" align="center">
+		<div class="col-md-12 bestWayHeader" align="center">
 			<h4 class="ourFeatureTitle">The Best Way to Keep Up with Social Media.</h4>
 			<p class="ourFeatureParagraph">With NovaIO, you can effectively manage your Facebook, Twitter, and Instagram accounts through a single interface. We're excited to bring a variety of benefits to you through our features.</p>
+			<img src="public/images/phone.png" class="img-responsive phone">
 		</div>
 	<div class="container">
 		<div class="col-md-12 padding-top">
@@ -152,10 +122,22 @@
 			</div>
 		</div>
 	</div>
+	<div class="col-md-12 signUpBetaPlease" align="center">
+		<h4 class="waitingFor">Well, what're you waiting for?</h4>
+		<button class="btn onImageBetaButton" data-target="#signBeta" data-toggle="modal">Get on the Beta List</button>
+		<div class="modal fade" id="signBeta" tabindex="-1" role="dialog" aria-labelledby="addLabel" aria-hidden="true">
+		<!-- GOOGLE FORM ID -->
+			<div class="modal-dialog modal-md">
+				<div class="modal-content modalProperty">
+					<iframe src="https://docs.google.com/forms/d/15dwzAAM3uUl6YSLxqOg8fbUzOSu_up5vywFivstvhbw/viewform?embedded=true" width="760" frameborder="0" marginheight="0" marginwidth="0" class="googleForm">Loading...</iframe>
+				</div>
+			</div>
+		</div>
+	</div>
 	<!-- END OF MAIN CONTENT -->
 	<div class="col-md-12 bottomHeader" align="center">
-		<h4 class="signUpTitle" align="center">NovaIO <span class="blog">Blog</span></h4>
-		<p class="ourFeatureParagraph">Marketing tips, tricks, and insights. Stay connected and learn about a whole another world.</p>
+		<h4 class="novaBlogTitle">BLOG.</h4>
+		<p class="novaLine">Marketing tips, tricks, and insights. Improve the culture of your startup.</p>
 		<div class="col-md-12">
 			<a href="#">
 				<button class="btn onImageBetaButton"><span class="fa fa-newspaper-o">&nbsp;&nbsp;&nbsp;Read More</span></button>
@@ -171,7 +153,7 @@
 				</ul>
 				<ul class="list-unstyled list-inline footerList">
 					<li>
-						<a class="footerListLink" data-toggle="tooltip" title="Coming Soon!">Blog</a>
+						<a href="blogs.html" class="footerListLink">Blog</a>
 					</li>
 					<li>
 						<a href="#" class="footerListLink" data-target="#signup" data-toggle="modal">Signup</a>
@@ -197,7 +179,7 @@
 	<script src="public/js/bootstrap.min.js"></script>
 	<script>
 		$(function () {
-		  $('[data-toggle="tooltip"]').tooltip({'placement': 'top'});
+		  $('[data-toggle="tooltip"]').tooltip();
 		})
 	</script>
 	<script src="public/js/script.js"></script>

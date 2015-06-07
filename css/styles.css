@@ -20,13 +20,18 @@
 }
 body {
   background-color: #FFFFFF;
-	margin-top: 3em;
+}
+.blogBody {
+  background-color: #F5F5F5;
 }
 .container {
   width: 80%;
 }
+.container-fluid {
+  width: 70%;
+}
 .divide {
-  border-color: #D0D0D0;
+  border-color: #E8E8E8;
   width: 80%;
 }
 /* ------------------------------------------------------------------------ */
@@ -36,6 +41,11 @@ body {
   background: #FFFFFF;
   height: 70px;
   border-bottom: 1px solid #E3E3E3;
+}
+.navBarBlog {
+  background: transparent;
+  height: 70px;
+  border: none;
 }
 .navBar .menu {
   font-size: 13px;
@@ -57,6 +67,16 @@ body {
   width: auto;
   margin-left: 8.2em;
   margin-top: -3px;
+}
+.blogByLogo {
+  height: 55px;
+  width: auto;
+  margin-top: -3px;
+}
+.backButton {
+  height: 30px;
+  width: auto;
+  margin-top: 10px;
 }
 /* END OF NAVBAR CSS */
 
@@ -98,8 +118,22 @@ body {
   margin-bottom: 4em;
 }
 .onImageBetaButton:hover {
-  background-color: #D24636;
-  border: 1px solid #D24636;
+  background-color: #E23D2B;
+  border: 1px solid #E23D2B;
+  color: white;
+}
+.blogButtonOnHome {
+  background-color: rgba(25,25,25,0.3);
+  border: none;
+  padding: 10px 30px 10px 30px;
+  font-size: 15px;
+  font-family: Light;
+  color: white;
+  margin-top: 3px;
+}
+.blogButtonOnHome:hover {
+  background-color: #EE402D;
+  border: none;
   color: white;
 }
 .navbar-nav .like {
@@ -147,34 +181,84 @@ body {
   width: 100%;
   background-color: #FFFFFF;
 }
+.authorFollow {
+  margin-top: 20px;
+  background-color: #55ACEE;
+  color: white;
+}
+.authorFollow:hover {
+  background-color: #3B89C4;
+  color: white;
+}
+.postButton {
+  background-color: #FF5D3B;
+  color: white;
+  margin-top: 20px;
+}
+.postButton:hover {
+  background-color: #EE402D;
+  color: white;
+}
 /* END OF BUTTONS CSS */
 
 /* ------------------------------------------------------------------------ */
 
 /* CHANGING MAIN CONTENT */
 .mainHeader {
-  background: url("../public/images/background.png");
+  background: url("../public/images/express.png");
   width: 100%;
-  padding-top: 15em;
-  height: 700px;
+  padding-top: 2.5em;
+  padding-bottom: 8em;
+  height: 600px;
+  margin-bottom: 5em;
+  background-attachment: fixed;
+} 
+.blogHeader {
+  background: url("../public/images/blogs.png");
+  width: 100%;
+  padding-top: 2.5em;
+  padding-bottom: 8em;
+  height: 600px;
+  margin-bottom: 5em;
   background-attachment: fixed;
 }
-.missionMainHeader {
-  background: url("../public/images/paino.jpg");
+.seoPostHeader {
+  background: url("../public/images/blogs/seoPost.png");
   width: 100%;
-  height: 700px;
+  padding-top: 2.5em;
+  padding-bottom: 8em;
+  height: 600px;
+  margin-bottom: 5em;
+  background-attachment: fixed;
+}
+.frameworkPostHeader {
+  background: url("../public/images/blogs/frameworkPost.png");
+  width: 100%;
+  padding-top: 2.5em;
+  padding-bottom: 8em;
+  height: 600px;
+  margin-bottom: 5em;
+  background-attachment: fixed;
+}
+.webProjectPostHeader {
+  background: url("../public/images/blogs/webProjectPost.png");
+  width: 100%;
+  padding-top: 2.5em;
+  padding-bottom: 8em;
+  height: 600px;
+  margin-bottom: 5em;
   background-attachment: fixed;
 }
 .bottomHeader {
-  background: url("../public/images/paino.jpg");
+  background: url("../public/images/bottomBlog.png");
   min-height: 300px;
   padding-top: 0.3em;
   padding-bottom: 4em;
   background-attachment: fixed;
 }
-.peopleHeader {
-  background: url("../public/images/people.png");
-  min-height: 300px;
+.bestWayHeader {
+  background: url("../public/images/bestWay.png");
+  height: 800px;
   padding-top: 0.3em;
   padding-bottom: 4em;
   background-attachment: fixed;
@@ -183,6 +267,28 @@ body {
   padding-bottom: 5em;
 }
 .padding-top {
+  padding-top: 5em;
+}
+.blogPost {
+  background-color: white;
+  padding-top: 4em;
+  margin-top: 4em;
+  padding-bottom: 4em;
+  margin-bottom: 4em;
+  border-top: 4px solid #FF5D3B;
+}
+.blogPostCard {
+  border-radius: 0px;
+  background-color: #F8F8F8;
+  margin-bottom: 5em;
+  border: none;
+  padding-bottom: 4em;
+}
+.blogPostCard:hover {
+  background-color: #F3F3F3;
+}
+.signUpBetaPlease {
+  background-color: #F0F0F0;
   padding-top: 5em;
 }
 /* END OF MAIN CONTENT */
@@ -237,11 +343,25 @@ body {
   font-size:calc(100% + 7vw);
   color: white;
 }
+.novaBlogTitle {
+  font-family: Cool;
+  font-size:90px;
+  color: white;
+  padding-top: 1.5em;
+}
 .novaMainText {
   background: #EE402D;
   padding: 5px 15px 5px 15px;
   border-radius: 8px;
   margin-left: 5px;
+}
+.blogPostMainTitle {
+  font-family: Cool;
+  font-size: 70px;
+  color: white;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 3em;
 }
 .blog {
   background-color: #EE402D;
@@ -295,6 +415,56 @@ body {
   line-height: 40px;
   color: #F0F0F0;
 }
+.blogTitle {
+  font-family: Bold;
+  font-size: 20px;
+  line-height: 35px;
+  color: #FF5D3B;
+  padding-top: 1em;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.blogDescription {
+  color: #888888;
+  padding-top: 15px;
+  line-height: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.blogCategory {
+  color: #000000;
+  font-size: 10px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+.postOverview {
+  padding-left: 40px;
+  padding-right: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.insideBlogHeading {
+  font-size: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 2em;
+}
+.blogWritePost {
+  padding-left: 40px;
+  padding-right: 40px;
+  line-height: 40px;
+  font-size: 15px;
+}
+.authorTitle {
+  color: #A2A2A2;
+  font-family: Light;
+  padding-left: 6em;
+}
+.waitingFor {
+  font-size:calc(100% + 2vw);
+  font-family: Light;
+}
 /* END OF TEXT PROPERTIES */
 
 /* ------------------------------------------------------------------------ */
@@ -323,6 +493,28 @@ body {
 }
 .bottomForm::-webkit-input-placeholder { 
   color: #8A959E; 
+}
+.blogPicture {
+  width: 100%;
+  padding-top: 15px;
+}
+.authorPicture {
+  width: 60px;
+  height: auto;
+  margin-top: 5em;
+}
+.blogFitImage {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.aboutAuthor {
+  width: 90px;
+  height: auto;
+  margin-left: 30px;
+}
+.phone {
+  width: 60%;
+  height: auto;
 }
 /* END OF IMAGE PROPERTIES */
 
