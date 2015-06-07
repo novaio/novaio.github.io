@@ -270,7 +270,7 @@ body {
 }
 .bestWayHeader {
   background: url("../public/images/bestWay.png");
-  height: 800px;
+  height: 700px;
   padding-top: 0.3em;
   padding-bottom: 1em;
   background-attachment: fixed;
@@ -528,7 +528,7 @@ body {
   margin-left: 30px;
 }
 .phone {
-  width: 70%;
+  width: 60%;
   height: auto;
   margin-top: 1em;
 }
