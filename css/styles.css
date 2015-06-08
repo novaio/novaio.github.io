@@ -261,6 +261,15 @@ body {
   margin-bottom: 5em;
   background-attachment: fixed;
 }
+.designPrinciplesPostHeader {
+  background: url("../public/images/blogs/designPost.png");
+  width: 100%;
+  padding-top: 2.5em;
+  padding-bottom: 8em;
+  height: 600px;
+  margin-bottom: 5em;
+  background-attachment: fixed;
+}
 .bottomHeader {
   background: url("../public/images/bottomBlog.png");
   min-height: 300px;
@@ -467,6 +476,10 @@ body {
   padding-right: 25px;
   line-height: 40px;
   font-size: 15px;
+}
+.quoteInPost {
+  margin-left: 25px;
+  padding-right: 25px;
 }
 .authorTitle {
   color: #A2A2A2;
