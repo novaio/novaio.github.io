@@ -484,7 +484,7 @@ body {
 .authorTitle {
   color: #A2A2A2;
   font-family: Light;
-  padding-left: 6em;
+  padding-left: 10%;
 }
 .waitingFor {
   font-size:calc(100% + 2vw);
@@ -538,7 +538,7 @@ body {
 .aboutAuthor {
   width: 90px;
   height: auto;
-  margin-left: 30px;
+  margin-left: 10%;
 }
 .phone {
   margin-top: 1em;
