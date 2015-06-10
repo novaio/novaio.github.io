@@ -21,6 +21,9 @@
 body {
   background-color: #FFFFFF;
 }
+.backgroundGray {
+  background-color: #F5F5F5;
+}
 .blogBody {
   background-color: #F5F5F5;
 }
@@ -122,6 +125,21 @@ body {
   border: 1px solid #E23D2B;
   color: white;
 }
+.onImageLearnButton {
+  background-color: rgba(25,25,25,0.2);
+  border: 2px solid white;
+  padding: 10px 30px 10px 30px;
+  font-size: 15px;
+  font-family: Light;
+  color: white;
+  margin-top: 2em;
+  margin-bottom: 4em;
+  margin-left: 1em;
+}
+.onImageLearnButton:hover {
+  background-color: rgba(25,25,25,0.5);
+  color: white;
+}
 .blogButtonOnHome {
   background-color: rgba(25,25,25,0.3);
   border: none;
@@ -213,7 +231,7 @@ body {
   width: 100%;
   padding-top: 2.5em;
   padding-bottom: 8em;
-  height: 600px;
+  height: 800px;
   margin-bottom: 5em;
   background-attachment: fixed;
 } 
@@ -223,7 +241,7 @@ body {
   padding-top: 2.5em;
   padding-bottom: 8em;
   height: 600px;
-  margin-bottom: 5em;
+  margin-bottom: 8em;
   background-attachment: fixed;
 }
 .seoPostHeader {
@@ -301,17 +319,20 @@ body {
 }
 .blogPostCard {
   border-radius: 0px;
-  background-color: #F8F8F8;
+  background-color: white;
   margin-bottom: 5em;
-  border: none;
+  border-top: 3px solid #C2C2C2;
   padding-bottom: 4em;
 }
 .blogPostCard:hover {
-  background-color: #F3F3F3;
+  border-top: 3px solid #FF5D3B;
 }
 .signUpBetaPlease {
   background-color: #F0F0F0;
   padding-top: 5em;
+}
+.titleAlign {
+  padding-left: 3em;
 }
 /* END OF MAIN CONTENT */
 
@@ -362,7 +383,11 @@ body {
 }
 .novaTitle {
   font-family: Cool;
-  font-size:calc(100% + 7vw);
+  font-size:calc(100% + 5vw);
+  color: #F5F5F5;
+  padding-top: 2em;
+}
+.socialTitle {
   color: white;
 }
 .novaBlogTitle {
