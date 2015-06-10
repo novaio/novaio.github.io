@@ -167,9 +167,6 @@ body {
   color: #395A93;
   background: transparent;
 }
-.navBarLogo {
-  padding-bottom: 13em;
-}
 .navbar-nav .follow {
   font-size: 13px;
   color: #888888;
@@ -388,6 +385,7 @@ body {
   font-family: Cool;
   font-size:calc(100% + 5vw);
   color: #F5F5F5;
+  padding-top: 13em;
 }
 .socialTitle {
   color: white;
