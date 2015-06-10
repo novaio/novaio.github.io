@@ -167,6 +167,9 @@ body {
   color: #395A93;
   background: transparent;
 }
+.navBarLogo {
+  padding-bottom: 14em;
+}
 .navbar-nav .follow {
   font-size: 13px;
   color: #888888;
@@ -332,7 +335,7 @@ body {
   padding-top: 5em;
 }
 .titleAlign {
-  padding-left: 3em;
+  padding-left: 2%;
 }
 /* END OF MAIN CONTENT */
 
@@ -385,7 +388,6 @@ body {
   font-family: Cool;
   font-size:calc(100% + 5vw);
   color: #F5F5F5;
-  padding-top: 2em;
 }
 .socialTitle {
   color: white;
