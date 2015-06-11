@@ -126,18 +126,18 @@ body {
   color: white;
 }
 .onImageLearnButton {
-  background-color: white;
+  background-color: rgba(25,25,25,0.2);
   border: 2px solid white;
   padding: 10px 30px 10px 30px;
   font-size: 15px;
   font-family: Light;
-  color: black;
+  color: white;
   margin-top: 2em;
   margin-bottom: 4em;
   margin-left: 1em;
 }
 .onImageLearnButton:hover {
-  background-color: rgba(25,25,25,0.5);
+  background-color: rgba(255,255,255,0.4);
   color: white;
 }
 .blogButtonOnHome {
