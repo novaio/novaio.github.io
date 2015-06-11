@@ -126,12 +126,12 @@ body {
   color: white;
 }
 .onImageLearnButton {
-  background-color: rgba(25,25,25,0.2);
+  background-color: white;
   border: 2px solid white;
   padding: 10px 30px 10px 30px;
   font-size: 15px;
   font-family: Light;
-  color: white;
+  color: black;
   margin-top: 2em;
   margin-bottom: 4em;
   margin-left: 1em;
