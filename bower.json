@@ -1,17 +1,17 @@
 {
-  "name": "im-power",
+  "name": "novaio.github.io",
   "version": "0.1.0",
-  "homepage": "https://github.com/patrickford/im-power",
+  "homepage": "https://github.com/novaio/novaio.github.io",
   "authors": [
-    "Patrick Ford <patrickford@msn.com>"
+    "SocialNova <contact@socialnova.io>"
   ],
-  "description": "Re-engaging Democracy",
-  "main": "im-power/public/index.html",
+  "description": "Optimize Your Social Media",
+  "main": "novaio.github.io/index.html",
   "moduleType": [
     "node"
   ],
   "keywords": [
-    "Voting"
+    "Social Media"
   ],
   "license": "MIT",
   "private": true,

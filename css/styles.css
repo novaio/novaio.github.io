@@ -111,8 +111,8 @@ body {
   color: white;
 }
 .onImageBetaButton {
-  background-color: #EE402D;
-  border: 1px solid #EE402D;
+  background-color: #FF5D3B;
+  border-bottom: 4px solid #EE402D;
   padding: 10px 30px 10px 30px;
   font-size: 15px;
   font-family: Light;
@@ -121,8 +121,8 @@ body {
   margin-bottom: 4em;
 }
 .onImageBetaButton:hover {
-  background-color: #E23D2B;
-  border: 1px solid #E23D2B;
+  background-color: #EE402D;
+  border-bottom: 4px solid #EE402D;
   color: white;
 }
 .onImageLearnButton {
