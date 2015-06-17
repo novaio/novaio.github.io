@@ -31,7 +31,7 @@ body {
   width: 80%;
 }
 .container-fluid {
-  width: 70%;
+  width: 75%;
 }
 .divide {
   border-color: #E8E8E8;
@@ -42,34 +42,31 @@ body {
 /* START OF NAVBAR CSS */
 .navbar {
   background: #FFFFFF;
-  height: 70px;
-  border-bottom: 1px solid #E3E3E3;
+  height: 80px;
 }
 .navBarBlog {
   background: transparent;
   height: 70px;
   border: none;
 }
-.navBar .menu {
+.menu {
   font-size: 13px;
   color: #888888;
   margin-top: 10px;
 }
 .navBar .menu:hover {
   color: #EE402D;
-  background-color: transparent;
 }
-.navBar .active {
+.navbar .active {
   color: #EE402D;
 }
-.navBar .last {
+.navbar .last {
   margin-right: 25px;
 }
 .logo {
-  height: 45px;
+  height: 40px;
   width: auto;
-  margin-left: 8.2em;
-  margin-top: -3px;
+  margin-top: 3px;
 }
 .blogByLogo {
   height: 55px;
@@ -234,6 +231,13 @@ body {
   height: 800px;
   margin-bottom: 5em;
   background-attachment: fixed;
+}
+.orangeHeader {
+  background: #FF5D3B;
+  width: 100%;
+  padding-top: 12em;
+  margin-bottom: 5em;
+  background-attachment: fixed;
 } 
 .blogHeader {
   background: url("../public/images/bottomBlog.png");
@@ -246,6 +250,15 @@ body {
 }
 .seoPostHeader {
   background: url("../public/images/blogs/seoPost.png");
+  width: 100%;
+  padding-top: 2.5em;
+  padding-bottom: 8em;
+  height: 600px;
+  margin-bottom: 5em;
+  background-attachment: fixed;
+}
+.pitchPostHeader {
+  background: url("../public/images/blogs/pitchPost.png");
   width: 100%;
   padding-top: 2.5em;
   padding-bottom: 8em;
@@ -386,6 +399,12 @@ body {
   font-size:calc(100% + 5vw);
   color: #F5F5F5;
   padding-top: 175px;
+}
+.novaTitleTest {
+  font-family: Cool;
+  font-size:calc(100% + 5vw);
+  color: #F5F5F5;
+  padding-top: 150px;
 }
 .socialTitle {
   color: white;
